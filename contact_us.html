@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact us</title>
+    <style>
+       /* *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+       } */
+        .tab{
+
+            margin-top: 40px;
+            padding: 2px;
+           display: flex;
+           
+           justify-content: space-evenly;
+        }
+        /* .box{
+            background-color: rgba(165, 114, 25, 0.748);
+            border: 1.5px solid black;
+           height: 150px;
+           width: 170px;
+           display: grid;
+           justify-content: center;
+           border-radius: 15px;
+           margin-top: 10px;
+            
+        }*/
+        .box1{
+            background-color: rgba(165, 114, 25,0.748);
+            border: 1.5px solid black;
+           height: 150px;
+           width: 200px;
+           display: grid;
+           justify-content: center;
+           border-radius: 15px;
+           margin-top: 1px;
+           
+        }
+        
+        .p1{
+        font-weight: 1000;
+        text-align: center;
+        font-size: 1.2rem;
+        color: white;
+        }
+        .fill{
+          
+            margin-left: 100px;
+            display: flex;
+            flex-direction: column;
+            width: 30vw;
+            height:200px;
+            margin-bottom: 30px;
+            margin-top: -20px;
+        }
+        .fill input{
+            padding: 6px 6px;
+            border-radius: 5px;
+        }
+        .fill textarea{
+            border-radius: 5px;
+        }
+        .detail{
+        
+            text-align: center;
+            color: white;
+            margin-top: -10px;
+        }
+        .contact1{
+            margin-top: 100px;
+            margin-left: 35px;
+            display: flex;
+        }
+        .info{
+            width: 50vw;
+            margin-top: 0px;
+        }
+        .heading{
+           height: 10px;
+           width: 200px;
+        }
+        body{
+           overflow-x: hidden;
+           background-image: url("contactus.jpeg");
+           background-size: 160%;
+           background-repeat: no-repeat;
+        }
+        .letter{
+            font-family: arial;
+            font-size: 1.5rem;
+        }
+        .submit{
+            margin-left: 115px;
+            height: 30px;
+            width:120px;
+            background-color: rgb(255, 179, 0);
+        }
+    </style>
+</head>
+<body>
+    <!-- <div class="heading"><img src="contactus.jpeg"></div> -->
+ <div class="tab">
+    <div class="box1"><p class="p1"><img src="phone.png" height="40px"><br>Phone Number</p>
+        <div class="detail"> <p class="detail">8420982712<br>9831722568</p></div></div>
+    <div class="box1"><p class="p1"><img src="whatsapp.png" height="40px"><br>Whatsapp</p>
+       <div class="detail"> <p class="detail">9874264575<br>9748270800</p></div></div>
+    <div class="box1"><p class="p1"><img src="mail.png" height="40px"><br>Email</p>
+        <div class="detail"><p class="detail">shayandas267@gmail.com</p></div></div>
+ </div>
+ <br>
+ <div class="contact1">
+ <div class="info">
+        <!-- <h1>CONTACT INFO</h1> -->
+        <br>
+        <p class="letter">Want to get in touch?
+            Please feel free to contact our customer care team for any questions regarding the website or to give us suggestions. We are freshers in the feild of web development and thus will be glad to hear from you.
+
+        </p>
+ </div>
+ <div class="fill">
+   <input type="email" placeholder="Enter your E-mail">
+   <br>
+   <input type="name" placeholder="Enter your name">
+   <br>
+   <textarea name="message" id="" placeholder="Text Us Your Valuable Message" rows="3"></textarea>
+  <BR>
+    <input class="submit" type="submit" value="SUBMIT">
+ </div>
+</div>
+
+</body>
+</html>

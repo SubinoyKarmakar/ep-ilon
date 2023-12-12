@@ -1,0 +1,221 @@
+.navbar-1{
+    height: 70px;
+    width:1148px;
+    background-color: rgb(192, 140, 36);
+    color:white;
+    margin-top: 0px;
+    align-items:center;
+    justify-content: center;
+    display:flex;
+    text-align: center;
+}
+.nav_logo{
+    height:70px;
+    width:70px;
+    background-image: url("new_epsilon_logo.png");
+    background-size: contain;
+    position: relative;
+    right:190px;
+}
+.learn-from-best-tutors{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-size: 50px;
+    font-family: arial;
+    font-weight: 900;
+    height: 75px;
+    margin-top: 0px;
+    text-shadow: 3px -3px 3px black;
+}
+.navbar-2{
+    height: 30px;
+    width:1148px;
+    background-color: rgba(230, 157, 9,0.5);
+    color:black;
+    display: flex;
+    text-align: center;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    align-items:center;
+}
+.nav_text{
+    height:80px;
+}
+.welcome{
+    margin-left: 0px;
+    height:30px;
+    width:630px;
+}
+.welcome-to-epsilon{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 25px;
+    font-weight: 700;
+    /* margin-left: 50px ; */
+    animation-name: movement;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: normal;
+}
+@keyframes movement {
+    0%{
+        /* top:0px;
+        right:0px; */
+        margin-left: -350px;
+    }
+    50%{
+        /* top:0px;
+        right:300px; */
+        margin-left:300px;
+    }
+    100%{
+        margin-left: -350px;
+    }
+}
+.user-logo{
+    margin-left: 50px ;
+    margin-right: 100px ;
+}
+.signup{
+    height:100px;
+    width:30px;
+    margin-right:80px;
+    margin-left: 2px;
+    font-family: arial;
+    margin-top: 27px;
+}
+#logo{
+    margin-left: 40px;
+}
+.about-us{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 45px;
+}
+.st{
+    text-decoration: none;
+    color:black;
+}
+.feedback{
+    height:100px;
+    width:30px;
+    margin-right:80px;
+    font-family: arial;
+    margin-top: 82px;
+}
+.contact-us{
+    margin-right:50px;
+    font-family: arial;
+}
+.three-dots{
+    margin-right: 50px;
+}
+.body{
+    margin:0px;
+    padding:0px;
+    margin-top:0px;
+    height:470px;
+    width:1148px;
+    background-image: url("library_img1.png");
+    background-size: auto;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.container{
+    height:70px;
+    width: 100vw;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
+}
+.select-semester{
+    height:50px;
+    width:400px;
+    border-radius: 6px;
+    border: 1px solid black;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    background-color: rgb(243, 211, 147);
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top:30px;
+    left: 31%;
+    box-shadow: black 5px 5px 5px;
+}
+.container2{
+    height:150px;
+    width: 800px;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 55px;
+    left:30px;
+}
+.odd_sem{
+    height:80px;
+    width: 180px;
+    background-color: rgba(230, 157, 9);
+    border:3px solid black;
+    border-radius: 8px;
+    box-shadow: black 5px 5px 5px;
+    text-align: center;
+    line-height: 5px;
+    font-style: arial;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: white;
+}
+.odd_sem:hover{
+    height:85px;
+    width:185px;
+}
+.even_sem{
+    height:80px;
+    width: 180px;
+    background-color: rgb(112, 81, 21);
+    border:3px solid black;
+    border-radius: 8px;
+    box-shadow: black 5px 5px 5px;
+    text-align: center;
+    line-height: 5px;
+    font-style: arial;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: white;
+}
+.even_sem:hover{
+    height:85px;
+    width:185px;
+}
+.whole_container{
+    display: flex;
+}
+.container{
+    display: block;
+}
+.girl_pic{
+    height:350px;
+    width: 120px;
+    background-image: url("girl-pic.png");
+    background-size: cover;
+    margin-left: 35px; 
+    margin-top: 23px;
+}
+.boy_pic{
+    height:350px;
+    width: 180px;
+    background-image: url("boy-pic.png");
+    background-size: cover;
+    position: relative;
+    top:23px;
+    right:40px;
+}

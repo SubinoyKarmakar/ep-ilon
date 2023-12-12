@@ -1,0 +1,142 @@
+.body{
+    height: auto;
+    width: auto;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.st{
+    text-decoration: none;
+    color: #fcfcfc;
+}
+.head{
+    text-align: center;
+    font-size: 5vw;
+}
+.container{
+    display: inline;
+    position: relative;
+overflow-x: hidden;
+overflow-y: auto;
+    height: 100vh;
+    width: 1200px;
+    /* background-color:beige; */
+    /* background-image: url("library_img1.png");
+    background-size: cover; */
+
+}
+.card-cont1{
+   display: flex;
+   flex-wrap: wrap;
+    justify-content:center; 
+    gap: 20px;
+  
+
+   /* width: 100%;
+   height: 400px; */
+}
+.card1{
+    position: relative;
+    margin-left: 16px;
+    margin-top: 15px;
+    
+    margin-bottom: 10px;
+    height: 270px;
+    width: 440px;
+    background-color: #65f5b2;
+    /* border: 1px solid rgb(224, 101, 224); */
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 45px 1fr;
+grid-template-areas: 
+"hd"
+"main";
+
+}
+.p1{
+    position: relative;
+    top: 8.5px;
+    
+    font-size: 1.4rem;
+    color: #f7f5f5;
+}
+.p2{
+   position: relative;
+   top: 6px;
+ left: 9px;
+    font-size: 1.48rem;
+
+}
+.N1{
+    font-size: 1.7rem;
+}
+.N2{
+    font-size: 1.6rem;
+}
+.box{
+   
+background-color: rgb(240, 169, 27);
+border: 1px solid white;
+
+}
+#Header{
+    grid-area: hd;
+    text-align: center;
+    
+}
+#Content{
+    grid-area: main;
+    background-color:  rgb(241, 208, 142);
+    position: relative;
+    
+}
+.button{
+    position: absolute;
+    top: 78px;
+ 
+/* display: flex;
+flex-direction: row; */
+
+}
+.B1{
+    
+   margin-left: 10px;
+   margin-bottom: 22px;
+    border-radius: 10px;
+  
+    background-color:  rgb(138, 63, 9);
+    padding: .6rem 1.8rem;
+    color: white;
+    font-size: 19px;
+    box-shadow: -2px .8px 2px 1px rgb(243, 206, 133);
+   
+    position: relative;
+    z-index: 1;
+}
+.B1::before{
+    border-radius: 10px;
+    content: "";
+    position: absolute;
+    background-color: rgb(71, 48, 2);
+   
+    /* background-color: rgb(109, 78, 16); */
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0px;
+    transform: scaleX(0);
+    
+    transform-origin: left;
+    transition: all 0.7s;
+   
+    z-index: -1;
+}
+.B1:hover::before{
+    border-radius: 10px;
+    transform: scaleX(1);
+    
+}
